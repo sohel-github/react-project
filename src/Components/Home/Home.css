@@ -1,0 +1,8 @@
+.hero{
+    max-width: 500px;
+    margin:50px auto;
+    padding: 20px;
+    text-align: center;
+    background: #f1f1f1;
+    line-height: 1.9em;
+}

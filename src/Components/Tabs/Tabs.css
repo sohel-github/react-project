@@ -1,0 +1,49 @@
+.tab-app{
+  max-width: 600px;
+  margin:50px auto;
+  background: #f0f0f0;
+  padding: 15px;
+}
+.tab-app h1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.tab-nav ul{
+  list-style: none;
+  margin-bottom: 20px;
+}
+.tab-nav ul li{
+  display: inline;
+  padding:5px;
+  margin:0 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.tab-nav ul li:hover{
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
+}
+.activeClass{
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
+}
+section h3{
+  text-align: center;
+  padding-bottom: 5px;
+}
+section h4{
+  text-align: center;
+  padding-bottom: 5px;
+}
+section p{
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+.tab-list {
+    margin-left: 20px;
+}
+.tab-list li{
+  line-height: 1.8em;
+  font-size: 13px;
+}

@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from 'react-router-dom'
+
+import Home from './Components/Home/Home'
+import Navbar from './Components/Navbar/Navbar'
+import TourList from './Components/TourList/TourList'
+import Accordion from './Components/Accordion/Accordion'
+import Food from './Components/Food/Food'
+import Tabs from './Components/Tabs/Tabs'
+import Lorem from './Components/Lorem/Lorem'
+import Grocery from './Components/Grocery/Grocery'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/tour" component={TourList} />
+        <Route path="/accordion" component={Accordion} />
+        <Route path="/food" component={Food} />
+        <Route path="/tabs" component={Tabs} />
+        <Route path="/lorem" component={Lorem} />
+        <Route path="/grocery" component={Grocery} />
+      </Switch>
+    </>
   );
 }
 
