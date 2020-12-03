@@ -8,6 +8,7 @@ import Food from './Components/Food/Food'
 import Tabs from './Components/Tabs/Tabs'
 import Lorem from './Components/Lorem/Lorem'
 import Grocery from './Components/Grocery/Grocery'
+import Nav from './Components/Nav/Nav';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Route path="/tabs" component={Tabs} />
         <Route path="/lorem" component={Lorem} />
         <Route path="/grocery" component={Grocery} />
+        <Route path="/nav" component={Nav} />
+        
       </Switch>
     </>
   );
